@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "poppler_utils@latest",
+    "tesseract@latest",
+    "pandoc@latest",
+    "parallel@latest",
+    "libtiff@latest"
+  ]
+}

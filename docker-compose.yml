@@ -1,0 +1,7 @@
+services:
+  awareness:
+    build: .
+    volumes:
+      - ./workdir:/app/workdir
+    working_dir: /app/
+    command: ["/app/scripts.sh", "yalom-test.pdf"]
